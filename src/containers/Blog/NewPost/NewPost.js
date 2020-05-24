@@ -3,6 +3,11 @@ import axios from 'axios';
 import './NewPost.css';
 
 class NewPost extends Component {
+
+    componentDidMount(){
+        console.log(this.props);
+    }
+    
     state = {
         title: '',
         content: '',
